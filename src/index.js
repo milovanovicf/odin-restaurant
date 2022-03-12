@@ -20,7 +20,7 @@ const swithPage = (btn, background, text) => {
   });
 };
 
-swithPage(homeBtn, "/home.jpg", "Welcome Home");
-swithPage(menuBtn, "/bar.jpg", "Menu");
-swithPage(cateringBtn, "/catering.jpg", "Catering & Consulting");
-swithPage(aboutBtn, "/about.jpg", "About Us");
+swithPage(homeBtn, "../src/home.jpg", "Welcome Home");
+swithPage(menuBtn, "../src/bar.jpg", "Menu");
+swithPage(cateringBtn, "../src/catering.jpg", "Catering & Consulting");
+swithPage(aboutBtn, "../src/about.jpg", "About Us");
